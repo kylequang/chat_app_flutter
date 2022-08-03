@@ -1,0 +1,15 @@
+{
+    "id": "id",
+    "email": "email",
+    "uid?": "uid",
+    "phoneNumber?": "phoneNumber",
+    "idNumber?": "idNumber",
+    "fullName?": "fullName",
+    "dateOfBirth?": "dateOfBirth",
+    "gender?": "gender",
+    "provinceOrCity?": "provinceOrCity",
+    "district?": "district",
+    "address?": "address",
+    "avatar?": "avatar",
+    "isActive":false
+}

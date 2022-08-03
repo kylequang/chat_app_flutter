@@ -1,0 +1,28 @@
+{
+   
+    "version": "0.2.0",
+    "configurations": [
+ 
+        {
+            "name": "DEV",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554",
+          },
+          {
+            "name": "DEV1",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5556",
+            
+          },
+    ],  "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": [
+                "DEV",
+                "DEV1",
+            ],
+        }
+    ]
+}
