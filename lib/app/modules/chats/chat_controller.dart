@@ -143,7 +143,7 @@ class ChatController extends GetxController {
         idSender: getUidCurrentUser(),
         nameSender: currentUser.fullName,
         lastMessage:
-            Optional.of(msg.length > 30 ? DiplayHelper.subString(msg) : msg),
+            Optional.of(msg.length > 30 ? DisplayHelper.subString(msg) : msg),
         dateTime: DateTime.now(),
         seen: Optional.of(false),
       );

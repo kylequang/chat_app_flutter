@@ -89,7 +89,7 @@ class UserListView extends GetView<ChatController> {
                                         chatRoomModel.idSender ==
                                                 controller.getUidCurrentUser()
                                             ? 'You:  ${chatRoomModel.lastMessage.toString()}'
-                                            : '${DiplayHelper.getLastLetter(
+                                            : '${DisplayHelper.getLastLetter(
                                                 chatRoomModel.nameSender,
                                               )}: ${chatRoomModel.lastMessage.toString()}',
                                         style: chatRoomModel.idSender ==

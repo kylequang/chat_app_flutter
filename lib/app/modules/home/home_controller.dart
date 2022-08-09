@@ -39,13 +39,8 @@ class HomeController extends GetxController with WidgetsBindingObserver {
       case AppLifecycleState.resumed:
         usersRepo.updateActiveUser(usersRepo.getUidOfCurrentUser(), true);
         break;
-      case AppLifecycleState.inactive:
-        usersRepo.updateActiveUser(usersRepo.getUidOfCurrentUser(), false);
-        break;
-      case AppLifecycleState.paused:
-        usersRepo.updateActiveUser(usersRepo.getUidOfCurrentUser(), false);
-        break;
       default:
+        usersRepo.updateActiveUser(usersRepo.getUidOfCurrentUser(), false);
         break;
     }
   }
